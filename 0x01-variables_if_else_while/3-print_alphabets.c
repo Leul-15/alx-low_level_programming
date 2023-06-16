@@ -1,23 +1,19 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - Prints the alphabet.
  *
  * Return: Always 0 (Success)
  */
-int main() 
-{	
-    	char letter;
+int main(void)
+{
+char letter[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-   	 for (letter = 'a'; letter <= 'z'; letter++) {
-        	putchar(letter);
-    	}
-
-    	for (letter = 'A'; letter <= 'Z'; letter++) {
-        	putchar(letter);
-    	}
-
-    	putchar('\n');
-
-    	return 0;
-
+	for (i = 0; i < 52; i++)
+	{
+		putchar(letter[i]);
+	}
+	putchar('\n');
+	return (0);
 }
