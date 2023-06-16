@@ -5,10 +5,10 @@
  * Return: Always 0 (Success)
  */
 int main() {
-    int number;
+    int i;
 
-    for (number = 0; number < 10; number++) {
-        putchar('0' + number);
+    for (i = 0; i < 10; i++) {
+        putchar('0' + i);
     }
 
     putchar('\n');
