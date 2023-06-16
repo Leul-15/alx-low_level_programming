@@ -4,11 +4,14 @@
  *
  * Return: Always 0 (Success)
  */
-int main() {
+int main()
+{
     char letter;
 
-    for (letter = 'a'; letter <= 'z'; letter++) {
-        if (letter != 'q' && letter != 'e') {
+    for (letter = 'a'; letter <= 'z'; letter++)
+    {
+        if (letter != 'q' && letter != 'e')
+       	{
             putchar(letter);
         }
     }
