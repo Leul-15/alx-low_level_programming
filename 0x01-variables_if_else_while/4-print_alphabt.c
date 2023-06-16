@@ -5,16 +5,14 @@
  *
  * Return: Always 0 (Success)
  */
-int main() {
-    char letter;
+int main(void)
+{
+	char ch;
 
-    for (letter = 'a'; letter <= 'z'; letter++) {
-        if (letter != 'q' && letter != 'e') {
-            putchar(letter);
-        }
-    }
-
-    putchar('\n');
-
-    return 0;
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
 }
