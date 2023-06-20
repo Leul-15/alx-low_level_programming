@@ -5,7 +5,8 @@
  * Description: It prints the alphabet
  * Return: Nothing.
  */
-void print_alphabet(void) {
+void print_alphabet(void)
+{
     char letter = 'a';
 
     while (letter <= 'z') {
