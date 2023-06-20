@@ -4,9 +4,9 @@
  * @n: holds n
  * Return: positive number
  */
-int _abs(int i)
+int _abs(int n)
 {
-if (i < 0)
-i *= -1;
-return (i);
+	if (n < 0)
+	n *= -1;
+	return (n);
 }
