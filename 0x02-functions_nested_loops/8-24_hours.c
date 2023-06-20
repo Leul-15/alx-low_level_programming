@@ -8,20 +8,21 @@
 void jack_bauer(void)
 {
 
-int hour1, hour2 , minute1 , minute2 ;
-
-int n = 9;
+int hour1;
+int hour2;
+int minute1;
+int minute2;
+int a = 9;
 
 hour2 = 0;
 while (hour2 <= 2)
 {
 	if (hour2 == 2)
 	{
-		
-		n = 3;
+		a = 3;
 	}
 	hour1 = 0;
-	while (hour1 <= n)
+	while (hour1 <= a)
 	{
 		minute2 = 0;
 		while (minute2 <= 5)
