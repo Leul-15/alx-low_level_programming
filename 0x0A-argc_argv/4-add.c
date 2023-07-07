@@ -6,7 +6,7 @@
  * Return: 0 or 1
  */
 
-int check_num(const char *s)
+int isInteger(const char *s)
 {
 int i = 0;
 while (s[i] != '\0')
@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
 int sum = 0;
 while (--argc)
 {
-	if (check_num(argv[argc]))
+	if (isInteger(argv[argc]))
 	{
 		printf("Error\n");
 		return (1);
