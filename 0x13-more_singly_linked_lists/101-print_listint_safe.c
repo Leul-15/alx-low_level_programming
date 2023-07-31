@@ -12,7 +12,7 @@
  * Return: pointer to the new list
  */
 
-const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
+const listint_t **rm(const listint_t **list, size_t size, const listint_t *new)
 {
 	const listint_t **new_list;
 	size_t count;
@@ -54,7 +54,7 @@ size_t print_listint_safe(const listint_t *head)
 			}
 		}
 		number++;
-		list = _r(list, number, head);
+		list = rm(list, number, head);
 		printf("[%p] %d\n", (void *)head, head->n);
 		head = head->next;
 	}
