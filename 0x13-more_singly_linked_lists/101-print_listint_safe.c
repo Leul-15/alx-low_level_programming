@@ -23,7 +23,7 @@ const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 		free(list);
 		exit(98);
 	}
-	for (count = 0; count < s - 1; count++)
+	for (count = 0; count < size - 1; count++)
 		new_list[count] = list[count];
 	new_list[count] = new;
 	free(list);
