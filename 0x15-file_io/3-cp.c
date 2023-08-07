@@ -30,7 +30,7 @@ char *new_buffer(char *file)
 }
 
 /**
- * cl_file - Closes file.
+ * cl_file - Closes file descriptors.
  * @filed: The file descriptor to be closed.
  */
 void cl_file(int filed)
